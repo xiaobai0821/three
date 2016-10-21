@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的行程</title>
+	<link rel="stylesheet" href="../css/my-distance.css">
+	<!-- <link rel="stylesheet" href="../css/swiper-3.3.1.min.css"> -->
+</head>
+<body>
+	<div class='box'>
+		<div class='banner'>
+			<header>
+				<span><</span>
+				<p>我的行程</p>
+				<span>编辑</span>
+			</header>
+			<div>
+				<img src="../img3/b2.png" alt="">
+			</div>
+			<p>
+				<span>李哈哈</span>
+				<small>LV8</small>
+			</p>
+			<p>简介：说走就走的旅行，一起来吧</p>
+		</div>
+		<div class='main'>
+			<div class='swiper-container'>
+				<div class='swiper-wrapper'>
+					<div class='swiper-slide'>1</div>
+					<div class='swiper-slide'>2</div>
+					<div class='swiper-slide'>3</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script src='../js/swiper-3.3.1.min.js'></script>
+<script>
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/7.5+'px';
+	var swiper=new Swiper('.swiper-container',{
+		//pagination:'.swipe-pagination'
+	})
+</script>
